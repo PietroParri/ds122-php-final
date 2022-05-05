@@ -1,0 +1,82 @@
+body {
+  background-color: #d9f1ff;
+}
+.alinhamento{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left:20px;
+  text-align:center;
+}
+.bemvindo{
+  font-size: 20px;
+}
+@font-face{
+  font-family: Urban;
+  src: url(../fonts/Urban.ttf);
+}
+a{
+  color: white;
+  text-decoration:none;
+}
+.btn{
+  margin-top:5px;
+  margin-left:5px;
+}
+.navbar-brand{
+  font-family: Urban;
+}
+.video-principal{
+  display:inline-block;
+}
+.primeirop{
+  display:inline-block;
+}
+.ultimop{
+  display:inline-block;
+  text-align:center;
+}
+.ultimop2{
+  display:inline-block;
+  text-align:left;
+  margin-left:50px;
+}
+.comments{
+  text-align:left;
+  margin-top:10px;
+}
+#imagemdopietro{
+  width:120px;
+  height:120px;
+}
+#botaoenviar{
+  display:inline-block;
+}
+.links{
+  display:flex;
+}
+.display-1{
+  font-size:45px;
+}
+#div-70 {
+    background-color: #59bfff;
+    padding-top: 15px;
+    margin-top: 30px;
+    width: 69%;
+    height:700px;
+    float: left;
+    text-align: center;
+    border: 2pt solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#div-30 {
+    background-color: #59bfff;
+    padding-top: 15px;
+    margin-top: 30px;
+    width: 30%;
+    height:700px;
+    text-align: center;
+    float: right;
+    border: 2pt solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

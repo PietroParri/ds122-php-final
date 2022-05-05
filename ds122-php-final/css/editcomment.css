@@ -1,0 +1,57 @@
+body {
+  background-color: #63431c;
+
+  justify-content: center;
+  align-items: center;
+}
+
+  #fireCanvas {
+    margin: 10px;
+  }
+  form{
+    margin-left:37%;
+    margin-top:15%;
+  }
+  button{
+    margin-left:17%;
+  }
+  table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+  }
+  label{
+    margin-left:5px;
+    color:white;
+    font-family: fantasy;
+    font-size:25px;
+  }
+  td {
+    width: 32px;
+    height: 32px;
+    color: #FFF;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: center;
+    font-family: arial;
+    font-size: 10px;
+    position: relative;
+    font-weight: bold;
+  }
+
+  td.pixel {
+    width: 4px;
+    height: 4px;
+    border: 0;
+  }
+
+  .pixel-index {
+    font-size: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #927450;
+  }
+  .margin {
+    margin: 5px;
+  }

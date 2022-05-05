@@ -1,0 +1,17 @@
+<?php if (!empty($msg)): ?>
+  <?= $msg ?>
+<?php endif; ?>
+
+<?php if (mysqli_num_rows($comments) > 0): ?>
+  <?php while($comment = mysqli_fetch_assoc($comments)): ?>
+    <div class="comment" id="comment_<?= $comment['id'] ?>">
+      <h4>De: <?= $comment['name'] ?></h4>
+      <p><?= $comment['comment'] ?></p>
+    </div>
+  <?php endWhile; ?>
+<?php else: ?>
+  Nenhum comentário enviado.
+<?php endIF; ?>
+
+
+//registrar que sobrou dos comentarios
